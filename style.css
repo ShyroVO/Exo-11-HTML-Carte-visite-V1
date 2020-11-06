@@ -1,0 +1,87 @@
+
+     body {
+         margin: 0;
+         padding: 0;
+     }
+
+     .contenues {
+         margin: 5% 24% 0 24%;
+         background: wheat;
+         color: #40351b;
+         height: 400px;
+         padding: 5px 40px;
+         border: solid #40351b 3px;
+         border-radius: 60px 0;
+     }
+
+     a {
+         text-decoration-line: none;
+         color: #17120b;
+     }
+
+     h1 {
+         padding-left: 35%;
+         padding-right: 35%;
+     }
+
+/* Contenues */
+
+     .avatar img {
+         position: absolute;
+         border: dotted 5px #40351b;
+         border-radius: 250px;
+         box-shadow: #40351b 0 0 5px;
+         height: 250px;
+         width: 250px;
+     }
+
+     .info {
+         position: relative;
+         left: 40%;
+         top: 3%;
+         border: dotted #40351b 2px;
+         width: 230px;
+         height: 100px;
+         padding-left: 10px;
+         padding-top: 20px;
+     }
+
+     .passions {
+         position: relative;
+         left: 60%;
+         top: 10%;
+         border: dotted #40351b 2px;
+         width: 230px;
+         height: 125px;
+         padding-left: 10px;
+     }
+
+
+/* Autre */
+     .cache {
+         background: #17120b;
+         height: 20px;
+         width: 200px;
+         position: absolute;
+         top: 33%;
+         left: 47%;
+     }
+
+     .cache:hover {
+         background: none;
+         transition-duration: 0.3s;
+     }
+
+     .cache2 {
+         background: #17120b;
+         height: 20px;
+         width: 200px;
+         position: absolute;
+         top: 30%;
+         left: 48%;
+     }
+
+     .cache2:hover {
+         background: none;
+         transition-duration: 0.3s;
+     }
